@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Deteksi Virus Anak</title>
+ 
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    
+    <style>
+        .btn-file {
+            position: relative;
+            overflow: hidden;
+        }
+         
+        .btn-file input[type=file] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            min-width: 100%;
+            min-height: 100%;
+            font-size: 100px;
+            text-align: right;
+            filter: alpha(opacity=0);
+            opacity: 0;
+            outline: none;
+            background: white;
+            cursor: inherit;
+            display: block;
+        }
+        
+        label {
+			border:1px solid #ccc;
+			padding:10px;
+			margin:0 0 10px;
+ 			display:block; 
+		}
+
+		label:hover {
+ 			background:#eee;
+ 			cursor:pointer;
+		}
+
+
+    </style>>
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <h3 class="text-muted">Deteksi Virus Anak</h3>
+        </div>
+ 
+        <form role="form" action="" enctype="multipart/form-data" method="post">
+ 
+ 
+            <!-- Form Name -->
+            <legend>Gejala yang dirasakan</legend>
+ 
+            <div class="form-group">
+                <label><input type="checkbox" value="demam" name="list_checkbox" /> Demam</label>
+                <label><input type="checkbox" value="pusing" name="list_checkbox"/> Pusing</label>
+                <label><input type="checkbox" value="lemas" name="list_checkbox"/> Lemas</label>
+                <label><input type="checkbox" value="nyeri tenggorokan" name="list_checkbox"/> Nyeri Tenggorokan</label>
+                <label><input type="checkbox" value="selera makan menurun" name="list_checkbox"/> Selera makan menurun</label>
+                <label><input type="checkbox" value="timbul ruam merah" name="list_checkbox"/> Timbul ruam merah</label>
+                <label><input type="checkbox" value="pipi bengkak" name="list_checkbox"/> Pipi Bengkak</label>
+                <label><input type="checkbox" value="nyeri saat mengunyah makanan" name="list_checkbox"/> Nyeri saat mengunyah makanan</label>
+                <label><input type="checkbox" value="nyeri saat menelan makanan" name="list_checkbox"/> Nyeri saat menelan makanan</label>
+                <label><input type="checkbox" value="mulut kering" name="list_checkbox"/> Mulut kering</label>
+                <label><input type="checkbox" value="sakit kepala" name="list_checkbox"/> Sakit kepala</label>
+                <label><input type="checkbox" value="nyeri Sendi" name="list_checkbox"/> Nyeri Sendi</label>
+                <label><input type="checkbox" value="nyeri Perut" name="list_checkbox"/> Nyeri Perut</label>
+                <label><input type="checkbox" value="hilang Nafsu Makan" name="list_checkbox"/> Hilang Nafsu Makan</label>
+                <label><input type="checkbox" value="batuk" name="list_checkbox"/> Batuk</label>
+                <label><input type="checkbox" value="pilek" name="list_checkbox"/> Pilek</label>
+                <label><input type="checkbox" value="muncul bercak putih di mulut" name="list_checkbox"/> Muncul bercak putih di mulut</label>
+                <label><input type="checkbox" value="timbulnya ruam kemerahan di wajah" name="list_checkbox"/> Timbulnya ruam kemerahan di wajah</label>
+                <br>
+                <p class="text-left">
+                    <input class="btn btn-primary" type="submit" value="Deteksi"/>
+                </p>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+ 
+</html> 
